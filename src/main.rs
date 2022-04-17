@@ -6,6 +6,7 @@
 // mod traits;
 // mod error_handling;
 mod unit_test;
+extern crate lib_demo;
 // mod ownership;
 // mod vars;
 
@@ -22,4 +23,5 @@ fn main() {
     // error_handling::run();
     // vars::sub_a::func_a();
     // vars::sub_b::func_b();
+    lib_demo::print_random_number();
 }
